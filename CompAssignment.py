@@ -13,7 +13,7 @@ while(ip.lower()!="quit"):
  while(count>0 and "".join(w)!=l):
   print("\n",count,"attempts left\tincorrect attempts ",u,"\n")
   print("\t"," ".join(w),"\n")
-  ip = input(" Enter A Charecter : ")
+  ip = input(" Enter A Character : ")
   if(ip.lower() in l.lower()):
    print("Character ",ip," found")
    i=0
