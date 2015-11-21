@@ -1,0 +1,13 @@
+
+public class employee{
+
+String id;
+int age;
+float salary;
+
+employee(){
+id="Not Specified";
+age=0;
+salary=000;
+}
+

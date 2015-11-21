@@ -1,0 +1,9 @@
+1.charAt(int) // returns char at index specified ;
+2.charPointAt(int) // returns unicode of char present at index specified ;
+3.charPointBefore(int)
+4.charPointCount(int,int) // returns the no of unicode points between specified index ;
+5.compareTo(String) // returns -1 if unicode sequence of both the Strings are same and 0 if they are not ;
+6.compareToIgnoreCase(String) // compares 2 Strings while Ignoring their case ( ex. Aviral, aviral whould return 0 which equals true ) ;
+7.concat(String) // concatenates 2 Strings ;
+8.contains(char) // checks wheater a string contains the specified charecter and return bollean values ;
+9.
