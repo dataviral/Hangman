@@ -3,7 +3,7 @@ import os
 source = open("source.txt")
 x=[]
 lines = source.readlines()
-for i in range(len(lines)):
+for i in range(1,len(lines),2):
  x.extend(lines[i].split())
 ip=""
 while(ip.lower()!="quit"):
@@ -26,11 +26,11 @@ while(ip.lower()!="quit"):
    u.append(ip)
    count -= 1
  if(count==0):
-  print("\n\nNumber Of Attempts exhausted\nThe correct word was :",l)
-  ip=input("Enter 'quit' to quit else press any key to continue: ")
+  print("\n\nNumber Of Attempts exhausted\n\t\tThe correct word was :\t",l,"\n\t\tThe word means :\n",lines[(x.index(l)+1)*2])
+  ip=input("\nEnter 'quit' to quit else press any key to continue: ")
  else:
-  print("\n\nYou gussed the word ", l, "with ",count," attempt(s) remaining") 
-  ip=input("Enter 'quit' to quit else press any key to continue: ") 
+  print("\n\nYou gussed the word\t", l, " with ",count,"\tattempt(s) remaining" "\nThe word means :\n\t",lines[(x.index(l)+1)*2+1] )
+  ip=input("\nEnter 'quit' to quit else press any key to continue: ") 
 source.close()  
   
   
