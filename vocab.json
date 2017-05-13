@@ -1,0 +1,26 @@
+{
+    "frugal": {
+        "5": "Miserly",
+        "7": "Miserly",
+        "6": "Miserly",
+        "1": "Miserly",
+        "3": "Miserly",
+        "0": "Miserly",
+        "8": "Miserly",
+        "2": "Miserly",
+        "_count": 9,
+        "4": "Miserly"
+    },
+    "gregarious": {
+        "1": "Fond of company",
+        "0": "Sociable",
+        "_count": 2
+    },
+    "_count": 3,
+    "lavish": {
+        "0": "Expensive",
+        "_count": 3,
+        "2": "Expensive",
+        "1": "Expensive"
+    }
+}

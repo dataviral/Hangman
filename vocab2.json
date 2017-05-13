@@ -1,0 +1,15 @@
+{
+    "lavish": {
+        "1": "Expensive",
+        "2": "Expensive",
+        "_count": 3,
+        "0": "Expensive"
+    },
+    "_count": 2,
+    "frugal": {
+        "1": "Miserly",
+        "2": "Miserly",
+        "_count": 3,
+        "0": "Miserly"
+    }
+}
